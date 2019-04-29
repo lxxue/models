@@ -94,3 +94,16 @@ py_binary(
         "//im2txt/inference_utils:vocabulary",
     ],
 )
+
+py_binary(
+    name = "get_feats",
+    srcs = ["get_feats.py"],
+    srcs_version = "PY2AND3",
+    deps = [
+        ":configuration",
+        ":inference_wrapper",
+        "//im2txt/inference_utils:caption_generator",
+        "//im2txt/inference_utils:vocabulary",
+    ],
+)
+

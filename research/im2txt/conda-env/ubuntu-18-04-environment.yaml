@@ -138,5 +138,5 @@ dependencies:
   - xz=5.2.4=h14c3975_4
   - zeromq=4.2.5=hf484d3e_1
   - zlib=1.2.11=ha838bed_2
-prefix: /home/arinto_murdopo/anaconda3/envs/im2txt
+prefix: /data/anaconda/envs/im2txt
 
